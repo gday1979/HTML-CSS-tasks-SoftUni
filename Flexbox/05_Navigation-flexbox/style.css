@@ -1,0 +1,16 @@
+header{
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+}
+ul{
+    display: flex;
+    flex: 10 0 auto;
+   
+
+}
+a{
+text-decoration: none;
+    color: rgb(0, 153, 0);
+  
+  
+}
