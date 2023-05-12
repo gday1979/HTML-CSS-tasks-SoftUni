@@ -1,50 +1,54 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ccc;
+    background-color: #CCCCCC;
 }
 
 ul {
-    background-color: #444;
     text-align: center;
+    background-color: #444;
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
 li {
-    display: inline-block;
     font-size: 24px;
     line-height: 40px;
     height: 40px;
     padding: 20px;
+    display: inline-block;
 }
 
-a {
+a,
+footer p {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 section {
-    margin: 0 0 0 20px;
+    margin-left: 20px;
 }
 
-h1 {
+header h1 {
     font-size: 28px;
 }
 
-header p {
+.text-italic {
     font-style: italic;
+    font-size: 24px;
 }
 
-p {
-    font-size: 24px;
+article p {
+    font-size: 28px;
 }
 
 footer {
     background-color: #444;
+}
+
+footer p {
     color: #fff;
     text-align: center;
     padding: 10px;
-
 }
