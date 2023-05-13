@@ -1,0 +1,14 @@
+body,ul,li{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+li{
+    margin: 15px 15px;
+    border: 10px solid;
+    background-color: white;
+    
+}
+li.img{
+    width: 125px;
+}
