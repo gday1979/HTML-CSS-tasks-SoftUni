@@ -1,0 +1,23 @@
+body{
+    background:rgb(238, 238, 238) ;
+}
+h2{
+    display: inline-block;
+}
+.masonry{
+    display:grig ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+image{
+    border-radius: 6px;
+    object-fit: cover;
+}
