@@ -1,0 +1,15 @@
+.viewport{
+min-height: 100vh;
+}
+.first  {
+    display: block;
+    background: rgb(26, 96, 157);
+        background: linear-gradient
+        (90deg, rgba(26, 96, 157, 1) 0%,
+         rgba(64, 199, 161, 1) 100%,
+          rgba(0, 212, 255, 1) 100%);
+}
+section{
+    position: absolute;
+    
+}
