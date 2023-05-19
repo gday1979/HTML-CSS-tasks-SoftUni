@@ -1,13 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 .viewport{
 min-height: 100vh;
 }
 .first  {
     display: block;
-    background: rgb(26, 96, 157);
-        background: linear-gradient
-        (90deg, rgba(26, 96, 157, 1) 0%,
-         rgba(64, 199, 161, 1) 100%,
-          rgba(0, 212, 255, 1) 100%);
+    background: rgb(32, 111, 158);
+        background: linear-gradient(90deg, 
+        rgba(32, 111, 158, 1) 0%, 
+        rgba(48, 156, 159, 1) 49%,
+         rgba(65, 201, 161, 1) 100%);
+}
+.second{
+    display: block;
+    background: rgb(170, 55, 114);
+        background: linear-gradient(90deg,
+         rgba(170, 55, 114, 1) 0%,
+         rgba(189, 91, 68, 1) 49%,
+          rgba(208, 125, 25, 1) 100%);
 }
 section{
     position: absolute;
