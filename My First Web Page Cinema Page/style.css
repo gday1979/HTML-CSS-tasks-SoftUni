@@ -2,16 +2,13 @@ html{
     background-color: aqua;
     
 }
-header{
-    display: flex;
-}
+
 h1{
     text-align: center;
-    margin: 10px 10px;
+    margin:1em 1em;
     border: 3px solid orchid;
-}
-li a{
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+    border-radius: 0.5em;
+    padding: 1rem 1rem;
+    width: 50%;
+    text-decoration: solid;
 }
