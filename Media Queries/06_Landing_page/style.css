@@ -1,6 +1,15 @@
-.header{
+:root {
+    --var-clr-purple: #68347b;
+    --var-clr-white: #fbfbfb;
+    --var-f-purple: #902486;
+    --var-f-blur: #afb6be;
+    --var-clr-blck: black;
+}
+html {
+    background-color: var(--var-clr-white);
+}
+body{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
+    flex-direction: column;
+    gap: 5vw;
 }
