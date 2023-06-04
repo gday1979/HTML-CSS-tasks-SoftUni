@@ -1,14 +1,23 @@
-html{
-    background-color: aqua;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 
-h1{
-    text-align: center;
-    margin:1em 1em;
-    border: 3px solid orchid;
-    border-radius: 0.5em;
-    padding: 1rem 1rem;
-    width: 50%;
-    text-decoration: solid;
+body{
+    font-family: "Lato",sans-serif;
 }
+h1{
+    font-size: 1em;
+    text-align: center;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 2px solid green;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    border-radius: 1em;
+    border: 2px solid blueviolet;
+    background-color:aquamarine ;
+    gap: 2em;
+    object-fit: contain;
+}
+    
