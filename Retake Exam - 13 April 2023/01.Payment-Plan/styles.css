@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Montserrat:ital,wght@0,300;0,400;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+    --cir-black: #000101;
+    --cir-white: #fdfdfd;
+}
+
+body{
+    font-family: 'Inter',sans-serif;
+    background-image: url('image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    width: 70%;
+    margin: 48px auto;
+}
+.cards{
+    display: flex;
+    gap: 40px;
+}
+.cards .card:nth-child(even){
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+.card{
+    background-color: var(--cir-white);
+}
+
+.content{
+    padding: 20px;
+
+}
+.card-title{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+h2{
+    letter-spacing: 1px;
+}
+span{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card-bill{
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: lighter;
+}
+.card-service li{
+    font-weight: 600;
+    margin-bottom: 16px;
+    list-style: none;
+}
+.card-btn{
+    background-color: var(--cir-black);
+    color: white;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px 28px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-shadow: 0 0 black;
+    border: none;
+
+}
+#second{
+    margin-top: 68px;
+}

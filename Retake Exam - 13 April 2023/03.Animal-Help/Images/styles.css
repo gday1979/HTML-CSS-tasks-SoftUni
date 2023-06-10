@@ -1,0 +1,22 @@
+:root{
+    --cir-navyblue:#85DCFF;
+    --cir-black:#000000
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 1em
+}
+.nav-header-ul{
+    display: flex;
+    text-decoration: none;
+    gap: 1em;
+    list-style-type: none;
+    margin: 1em 1em;
+}
+.difference-title{
+    background-color: var(--cir-navyblue);
+    display: flex;
+    justify-content: space-between;
+    
+}

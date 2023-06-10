@@ -5,13 +5,54 @@
     --clr-secondary: #337fc1;
     --clr-white: #fff;
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: "Poppins", sans-serif;
 }
-.image{
+.content-digital-currency{
     display: flex;
-    width: 50%;
-    margin: auto;
-    border-radius: 0.5em;
-    background:#819DAF ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 30px;
+    background-color: #819dae;
+        text-align: center;
+        padding: 0.5em 0.5em;
+        border-radius: 4px;
+}
+.header{
+    text-align: center;
+}
+.img-wrapper{
+    max-width: 1200px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px;
+}
+.financial-services{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.financial{
+    color: black;
+}
+.services{
+    color:#337fc1;
+}
+.button{
+    background:#337fc1;
+    color: #fff;
+    margin-left: 2px;
+    border-radius: 4px;
+
 }
