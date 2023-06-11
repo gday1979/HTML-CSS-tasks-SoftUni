@@ -2,21 +2,206 @@
     --cir-navyblue:#85DCFF;
     --cir-black:#000000
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    margin: 1em 1em
+.body{
+    font-family: 'Arial', sans-serif;
 }
-.nav-header-ul{
+
+.nav-help{
     display: flex;
-    text-decoration: none;
+    flex-direction: row;
+    margin: 20px 30px 20px 60px;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.list-contacts{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
     gap: 1em;
-    list-style-type: none;
-    margin: 1em 1em;
 }
-.difference-title{
-    background-color: var(--cir-navyblue);
+.subtitle-nav{
+    margin-top: 11px;
+}
+.donation-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color:var(--cir-navyblue) ;
+}
+.donation-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     
 }
+.donation-content h3{
+    font-size: 40px;
+}
+.donation-content p{
+    font-size: 20px;
+    width: 770px;
+}
+
+.donation-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.btn-donate{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+.btn-join{
+    height: 40px;
+    width: 280px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.container-icons{
+    margin-top: 20px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+}
+.title-h3-icons{
+    font-weight: 800;
+    font-size: 30px;
+}
+.subtitle-p-icons{
+    font-weight: bold;
+    width: 440px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.description-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.description-title h3{
+    font-weight: 800;
+    font-size: 30px;
+}
+.description-title p{
+    font-weight: bold;
+    width: 440px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.description-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+.description-card-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.description-card-contents i{
+    font-size: 240px;
+    color: var(--cir-navyblue);
+}
+.description-card-contents p{
+    width: 330px;
+    text-align: center;
+}
+.work-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cir-navyblue);
+    gap: 60px;
+}
+.work-title{
+    margin-top: 60px;
+    font-size: 18px;
+}
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+.work-list li{
+   width: 45%;
+   text-align: left;
+   display: flex;
+}
+.work-list li i{
+    margin-bottom: 30px;
+    margin-right: 6px;
+}
+.btn .btn-btn{
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 40px;
+    border-radius: 10x;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.animals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px ;
+}
+.animals-title-h2{
+    margin-top: 10px;
+    font-size: 58px;
+    font-weight: 900 ;
+    text-align: center;
+    
+}
+.animals-title-p{
+    
+    font-size: 28px;
+}
+.img-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.img-wrapper img{
+    width: 420px;
+}
+.how-was-work{
+    display: flex;
+    border-radius: 2px grey;
+    margin: 20px 40px 20ox 60px;
+}
+.how-was-h2{
+    display: flex;
+    justify-content: center;
+    margin-top:40px ;
+    font-size: 18px;
+}
+.how-was-work{
+    display: flex;
+   flex-direction: column;  
+    align-items:center;
+    gap: 20px;
+    
+}
+
+
