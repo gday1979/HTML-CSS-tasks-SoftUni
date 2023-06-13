@@ -1,0 +1,8 @@
+@media (max-width:600px) {
+    .navigation-nav, .home-text{
+        display: none;
+    }
+        .home-tab-selector-header{
+            flex-direction: none;
+        }
+}
