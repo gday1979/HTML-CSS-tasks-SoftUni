@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;0,900;1,300;1,500;1,900&display=swap');
+:root{
+    --gray-light:#efefef;
+    --grey-dark:#909090;
+    --grey-black:#222222;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    color: var(--grey-black);
+}
+.page-section{
+    max-width: 1880px;
+    height: calc(100vh-1.5rem);
+    margin:24px auto;
+    background-color: var(--gray-light);
+    padding:3rem 5rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.page-section .section-info{
+    flex:0 0 50%;
+}
+.page-section .section-info{
+    flex:0 1 35%;
+}
+.page-section .title{
+    font-size: 3rem;;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+.page-section .desc{
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+.page-section .divider-vertical{
+    height: 6rem;
+    width: 1px;
+    background-color: var(--grey-black);
+
+}
+.page-section .title .bolded{
+    font-weight: bold;
+}
+/* hero*/
+#hero.page-section{
+  position: relative;
+}
+#hero .navigation{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+}
+#hero .hero img{
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    right: 5rem;
+}
+#camera .socials{
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+}
+#camera .socials .social{
+    width: 3rem;
+    height: 3rem;
+    list-style: none;
+    background-color: var(--grey-dark);
+    color: white;
+    position: relative;
+}
+#camers .socials .social i{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
