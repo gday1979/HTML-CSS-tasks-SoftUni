@@ -1,0 +1,7 @@
+@media (max-width:600px) {
+    
+    
+        .home-left,.home-container01,.{
+            display: none;
+        }
+}
