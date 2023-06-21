@@ -1,23 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap');
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: "Lato",sans-serif;
 }
-h1{
-    font-size: 1em;
-    text-align: center;
-    margin: 2em;
-    padding: 1em;
-    border-radius: 2px solid green;
+.page-san-diego{
+    width: 1600px;
+    margin: 0 auto;
 }
-.images{
+.cards-san-diego{
     display: flex;
-    flex-direction: row;
-    width:auto;
-    border-radius: 1em;
-    border: 2px solid blueviolet;
-    background-color:aquamarine ;
-    gap: 2em;
-    object-fit: contain;
+    gap: 1.5em;
 }
+.cards-card{
     
+    border: 2px solid green;
+    border-radius: 4px;
+}
+.cards-card img{
+
+}
+.title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 1em 0.5em;
+}
+.subtitle{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}

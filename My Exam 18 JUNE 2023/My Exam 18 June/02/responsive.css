@@ -1,0 +1,33 @@
+@media (max-width:600px) {
+    .home-navbar{
+        padding-left:46px;
+    }
+    .home-hero{
+        flex-direction: column-reverse;
+    }
+    .home-hero-text-container{
+        width: 0;
+        align-items: center;
+
+        }
+  .home-cta-btn  {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 8px;
+    }
+  .home-cta-btn2{
+        align-self: center;
+      }
+   .home-heading-container{
+           width: 70%;
+        }
+    .home-cards-container{
+            flex-direction: column;
+            align-items: center;
+        }
+    .home-stats{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}
