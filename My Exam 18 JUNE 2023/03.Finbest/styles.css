@@ -2,19 +2,20 @@
 body{
     font-family: 'Inter', sans-serif;
 }
-.page{
-    width: 1800px;
+.container{
+    width:1600px;
     margin: 0 auto;
 }
-.left-side ul li{
-    display: inline;
- 
-    list-style: none;
-    gap:1.5em
-}    
-.right-side ul li{
-    display: inline;
-
-    list-style: none;
-    gap:1.5em
+.header-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+.header-nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
 }
